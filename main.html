@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="styleSheet" href="css/style_main.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="time_rest">
+        <div id="user_management">
+          <span id="log_in">Log-In</span>
+          <form id="user_management_form">
+            <input
+              required
+              type="text"
+              placeholder="Write your name"
+              maxlength="14"
+              id="input"
+            />
+          </form>
+          <span id="user_name"></span>
+        </div>
+        <div id="restTime">
+          <span>오늘 남은 시간</span>
+          <h2 id="rest_of_day">00:00:00</h2>
+        </div>
+
+        <div id="weather">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="qutoes_text">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div id="main">
+      <div id="todoBox">
+        <form id="todo-form">
+          <input type="text" required placeholder="오늘 할 일" />
+        </form>
+        <ul id="todo-list"></ul>
+      </div>
+      <div id="memo">
+        <form id="memo-form">
+          <input id="memo-form-input" type="text" placeholder="메모" />
+        </form>
+        <ol id="memo-form-input-list"></ol>
+      </div>
+
+      <div id="player"></div>
+    </div>
+
+    <script src="js/background.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/manage_user.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/memo.js"></script>
+    <script src="js/youtube.js"></script>
+  </body>
+</html>

@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'MBC1961GulimM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/MBC1961GulimM.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,body{
+   
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+#header{
+    width: 90%;
+    height: 20%;
+    background-color: rgba(226, 241, 252, 0.8);
+    border-radius: 13px;
+}
+img{
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+    
+}
+/*image 화질 개선*/
+img[src$=".gif"], img[src$=".png"] {
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+.no_dot {
+    list-style-type: none;
+}
+.margin-left{
+    margin-left: 10px;
+
+}
+.font{
+    font-family: 'MBC1961GulimM';
+    font-size: 20px;
+}
+.font_quotes{
+    font-family: 'MBC1961GulimM';
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 5px;
+
+}
+.font_author{
+    font-family: 'MBC1961GulimM';
+    font-size: 20px;
+}
+.background-button{
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+#time_rest{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'MBC1961GulimM'; 
+}
+#time_rest span {
+    margin-right: 4px;
+}
+#header{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#qutoes_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#qutoes_text span{
+    font-size: 15px;
+    font-weight: 700;
+}
+.hidden{
+    display: none;
+}
+
+#user_management{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3em;
+    
+}
+#user_management_form input{
+    border: none;
+    border-radius: 9px;
+}
+#user_management_form input::placeholder{
+    text-align: center;
+}
+#restTime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#todoBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    height: 90%;
+    background-color: rgba(226, 241, 252, 0.8);
+    border-radius: 13px;
+    border: 2px solid black;
+}
+
+#todo-form input{
+    outline: none;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 7px;
+    background-color:  rgba(226, 241, 252, 0.8);
+   
+
+}
+#todo-form input:focus{
+    border-bottom: 2px solid black;
+   
+    
+    
+}
+#input:focus{
+    background-color: bisque; 
+   
+}
+
+
+#weather{
+    margin-left: 30px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(226, 241, 252, 0.8);
+    border-radius: 13px;
+}
+
+#memo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    height: 90%;
+    background-color: rgba(226, 241, 252, 0.8);
+    border-radius: 13px;
+    border: 2px solid black;
+}
+#memo-form input{
+    outline: none;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 7px;
+    background-color:  rgba(226, 241, 252, 0.8);
+}
+#memo-form input:focus{
+    border-bottom: 2px solid black;
+   
+
+}
+
+#player{
+    border: 2px solid black;
+    border-radius: 13px;
+    width: 50%;
+    height: 90%;
+}
