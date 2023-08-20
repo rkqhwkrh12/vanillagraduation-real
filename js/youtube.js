@@ -8,6 +8,8 @@ function onYouTubePlayerAPIReady() {
   new YT.Player('player', {
     videoId: 'z6xu9jaKAyU', // 재생할 유튜브 영상 ID
     playerVars: {
+      height: '300',  //변경가능-영상 높이
+      width: '400',
       autoplay: true, // 자동 재생 유무
       loop: true,
       mute:0, // 반복 재생 유무

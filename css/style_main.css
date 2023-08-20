@@ -20,7 +20,7 @@ body{
 #header{
     width: 90%;
     height: 20%;
-    background-color: rgba(226, 241, 252, 0.8);
+    background-color: rgba(88, 94, 97, 0.3); 
     border-radius: 13px;
 }
 img{
@@ -132,7 +132,7 @@ img[src$=".gif"], img[src$=".png"] {
     align-items: center;
     width: 300px;
     height: 90%;
-    background-color: rgba(226, 241, 252, 0.8);
+    background-color: rgba(88, 94, 97, 0.3); 
     border-radius: 13px;
     border: 2px solid black;
 }
@@ -145,7 +145,7 @@ img[src$=".gif"], img[src$=".png"] {
     border: none;
     border-bottom: 2px solid black;
     border-radius: 7px;
-    background-color:  rgba(226, 241, 252, 0.8);
+    background-color: rgba(88, 94, 97, 0.3); 
    
 
 }
@@ -175,7 +175,7 @@ img[src$=".gif"], img[src$=".png"] {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(226, 241, 252, 0.8);
+    background-color: rgba(88, 94, 97, 0.3); 
     border-radius: 13px;
 }
 
@@ -186,7 +186,7 @@ img[src$=".gif"], img[src$=".png"] {
     align-items: center;
     width: 300px;
     height: 90%;
-    background-color: rgba(226, 241, 252, 0.8);
+    background-color: rgba(88, 94, 97, 0.3); 
     border-radius: 13px;
     border: 2px solid black;
 }
@@ -198,7 +198,7 @@ img[src$=".gif"], img[src$=".png"] {
     border: none;
     border-bottom: 2px solid black;
     border-radius: 7px;
-    background-color:  rgba(226, 241, 252, 0.8);
+    background-color:  rgba(88, 94, 97, 0.3); 
 }
 #memo-form input:focus{
     border-bottom: 2px solid black;
